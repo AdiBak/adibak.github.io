@@ -16,6 +16,25 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="June 2025 - Present"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Software Development Intern at Bright Sparks Academy</h3>
+            <p>
+              <ul>
+                <li>Building and enhancing an education platform using React, Next.js, and Tailwind CSS</li>
+                <li>Developing new features including a completed sessions table, question submission form, and dynamic sidebar navigation</li>
+                <li>Collaborating with a cross-functional team to implement role-based UI and improve accessibility</li>
+                <li>Practicing component-first development and following team code review and PR guidelines</li>
+              </ul>
+            </p>
+          </VerticalTimelineElement>
+          
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
             date="May 2024 - Aug 2024"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
