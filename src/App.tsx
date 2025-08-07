@@ -11,7 +11,7 @@ import FadeIn from './components/FadeIn';
 import './index.scss';
 
 function App() {
-    const [mode, setMode] = useState<string>('dark');
+    const [mode, setMode] = useState<string>('light');
 
     useEffect(() => {
         window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
