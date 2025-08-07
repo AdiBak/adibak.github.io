@@ -47,10 +47,11 @@
 
 /* Style for the right side with the date */
 .project h4 {
-    font-size: small;
+    position: relative;
+    font-size: medium;
     font-style: italic;
     margin: 0;
-    position: relative;
+    margin-left: 0px;
     margin-top: 20px;
     white-space: nowrap;
 }

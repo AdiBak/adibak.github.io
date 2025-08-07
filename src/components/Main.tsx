@@ -4,12 +4,13 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import '../assets/styles/Main.scss';
 
 function Main() {
+  const imageUrl = "https://i.ibb.co/GvRgMJZv/IMG-5586.jpg"; // This URL should match the one in .env
 
   return (
     <div className="container">
       <div className="about-section">
         <div className="image-wrapper">
-          <img src="https://media.licdn.com/dms/image/v2/D4D03AQGYStZHqTOycw/profile-displayphoto-shrink_800_800/B4DZXKTBtQG8Ac-/0/1742855741818?e=1751500800&v=beta&t=0ECtCoFk450d-E_9ie--gAhjRVLIjJpuVusdn4QLpw8" alt="Avatar" />
+          <img src={imageUrl} alt="Avatar" />
         </div>
         <div className="content">
           <div className="social_icons">

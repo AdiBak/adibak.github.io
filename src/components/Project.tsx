@@ -28,12 +28,12 @@ function Project() {
                             </a>
                         </h2>
                     </div>
-                    <h4>Apr 2025 - Present</h4>
+                    {/* Date removed */}
                 </div>
                 <div className="tech-stack">
-                    <Chip label="React.js" style={{ margin: '5px', backgroundColor: 'cyan', color: '#333', fontFamily: 'courier'}} />
-                    <Chip label="Three.js" style={{ margin: '5px', backgroundColor: '#0d031b', color: 'white', fontFamily: 'courier' }} />
-                    <Chip label="Mediapipe" style={{ margin: '5px', backgroundColor: 'teal', color: 'white', fontFamily: 'courier'}} />
+                    <Chip label="React.js" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
+                    <Chip label="Three.js" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier' }} />
+                    <Chip label="Mediapipe" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
                 </div>
                 <p>Building a hand gesture-controlled F1 simulator.</p>
             </div>
@@ -51,16 +51,16 @@ function Project() {
                             </a>
                         </h2>
                     </div>
-                    <h4>Feb 2025 - Apr 2025</h4>
+                    {/* Date removed */}
                 </div>
                 <div className="tech-stack">
-                    <Chip label="React.js" style={{ margin: '5px', backgroundColor: 'cyan', color: '#333', fontFamily: 'courier'}} />
-                    <Chip label="CSS" style={{ margin: '5px', backgroundColor: 'mediumblue', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="Jupyter" style={{ margin: '5px', backgroundColor: 'orange', color: '#333', fontFamily: 'courier' }} />
-                    <Chip label="PyTorch" style={{ margin: '5px', backgroundColor: '#ee4c2c', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="Cloudinary" style={{ margin: '5px', backgroundColor: 'royalblue', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="JSON" style={{ margin: '5px', backgroundColor: 'grey', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="Git" style={{ margin: '5px', backgroundColor: '#f1502f', color: 'white', fontFamily: 'courier'}} />
+                    <Chip label="React.js" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
+                    <Chip label="CSS" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
+                    <Chip label="Jupyter" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier' }} />
+                    <Chip label="PyTorch" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
+                    <Chip label="Cloudinary" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
+                    <Chip label="JSON" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
+                    <Chip label="Git" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
                     <Chip label="Vercel" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
                 </div>
                 <p>Designed a fun, educational game inspired by style transfer.</p>
@@ -79,18 +79,18 @@ function Project() {
                             </a>
                         </h2>
                     </div>
-                    <h4>Feb 2024 - May 2024</h4>
+                    {/* Date removed */}
                 </div>
                 <div className="tech-stack">
-                    <Chip label="HTML" style={{ margin: '5px', backgroundColor: '#f06529', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="Bootstrap" style={{ margin: '5px', backgroundColor: 'purple', color: 'white', fontFamily: 'courier' }} />
-                    <Chip label="CSS" style={{ margin: '5px', backgroundColor: 'mediumblue', color: 'white', fontFamily: 'courier'}} />
+                    <Chip label="HTML" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
+                    <Chip label="Bootstrap" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier' }} />
+                    <Chip label="CSS" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
                     <Chip label="Flask" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="JSON" style={{ margin: '5px', backgroundColor: '#303030', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="Prodia API" style={{ margin: '5px', backgroundColor: 'goldenrod', color: 'black', fontFamily: 'courier'}} />
-                    <Chip label="Cloudinary" style={{ margin: '5px', backgroundColor: 'royalblue', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="Redis" style={{ margin: '5px', backgroundColor: 'red', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="Git" style={{ margin: '5px', backgroundColor: '#f1502f', color: 'white', fontFamily: 'courier'}} />
+                    <Chip label="JSON" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
+                    <Chip label="Prodia API" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
+                    <Chip label="Cloudinary" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
+                    <Chip label="Redis" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
+                    <Chip label="Git" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
                     <Chip label="Render" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
                 </div>
                 <p>Built a fullstack AI-powered image upscaler web app.</p>
@@ -106,14 +106,14 @@ function Project() {
                             </a>
                         </h2>
                     </div>
-                    <h4>Oct 2023 - Dec 2023</h4>
+                    {/* Date removed */}
                 </div>
                 <div className="tech-stack">
                     <Chip label="Unity" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="C#" style={{ margin: '5px', backgroundColor: '#A020F0', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="Git" style={{ margin: '5px', backgroundColor: '#f1502f', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="Trello" style={{ margin: '5px', backgroundColor: '#0079BF', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="Itch.io" style={{ margin: '5px', backgroundColor: '#fa5c5c', color: 'white', fontFamily: 'courier'}} />
+                    <Chip label="C#" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
+                    <Chip label="Git" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
+                    <Chip label="Trello" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
+                    <Chip label="Itch.io" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
                 </div>
                 <p>Helped design, program a jetpack joyrider in a team of 15.</p>
             </div>
@@ -128,14 +128,14 @@ function Project() {
                             </a>
                         </h2>
                     </div>
-                    <h4>Oct 2022 - Dec 2022</h4>
+                    {/* Date removed */}
                 </div>
                 <div className="tech-stack">
                     <Chip label="Unity" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="C#" style={{ margin: '5px', backgroundColor: '#A020F0', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="Git" style={{ margin: '5px', backgroundColor: '#f1502f', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="Trello" style={{ margin: '5px', backgroundColor: '#0079BF', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="Itch.io" style={{ margin: '5px', backgroundColor: '#fa5c5c', color: 'white', fontFamily: 'courier'}} />
+                    <Chip label="C#" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
+                    <Chip label="Git" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
+                    <Chip label="Trello" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
+                    <Chip label="Itch.io" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
                 </div>
                 <p>Helped design, program a surreal platformer in a team of 11.</p>
             </div>
