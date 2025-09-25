@@ -87,7 +87,7 @@ function Project() {
                     <Chip label="CSS" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
                     <Chip label="Flask" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
                     <Chip label="JSON" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="Prodia API" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
+                    <Chip label="Hugging Face" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
                     <Chip label="Cloudinary" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
                     <Chip label="Redis" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
                     <Chip label="Git" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
