@@ -1,14 +1,4 @@
 import React from "react";
-import mock01 from '../assets/images/mock01.png';
-import mock02 from '../assets/images/mock02.png';
-import mock03 from '../assets/images/mock03.png';
-import mock04 from '../assets/images/mock04.png';
-import mock05 from '../assets/images/mock05.png';
-import mock06 from '../assets/images/mock06.png';
-import mock07 from '../assets/images/mock07.png';
-import mock08 from '../assets/images/mock08.png';
-import mock09 from '../assets/images/mock09.png';
-import mock10 from '../assets/images/mock10.png';
 import { Chip } from '@mui/material';
 import '../assets/styles/Project.scss';
 
@@ -18,126 +8,124 @@ function Project() {
     <div className="projects-container" id="projects">
         <h1>Projects</h1>
         <div className="projects-grid">
-            <div className="project">
-                <div className="project-header">
-                    <div className="project-title">
-                        <h2>
-                            F1 Gesture Controller
-                            <a href="https://github.com/AdiBak/f1-gesture-racer" target="_blank" rel="noopener noreferrer">
+            <div className="project-card">
+                <div className="project-image">
+                    <img src="https://i.ibb.co/gZL1fsNg/f1cardemoss.png" alt="F1 Gesture Controller" />
+                </div>
+                <div className="project-content">
+                    <div className="project-header">
+                        <h2>F1 Gesture Controller</h2>
+                        <div className="project-links">
+                            <a href="https://github.com/AdiBak/f1-gesture-racer" target="_blank" rel="noopener noreferrer" title="GitHub">
                                 <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" />
                             </a>
-                        </h2>
+                        </div>
                     </div>
-                    {/* Date removed */}
+                    <p>Building a hand gesture-controlled F1 simulator using computer vision and 3D graphics.</p>
+                    <div className="tech-stack">
+                        <Chip label="React.js" className="tech-chip" />
+                        <Chip label="Three.js" className="tech-chip" />
+                        <Chip label="Mediapipe" className="tech-chip" />
+                    </div>
                 </div>
-                <div className="tech-stack">
-                    <Chip label="React.js" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="Three.js" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier' }} />
-                    <Chip label="Mediapipe" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
-                </div>
-                <p>Building a hand gesture-controlled F1 simulator.</p>
             </div>
             
-            <div className="project">
-                <div className="project-header">
-                    <div className="project-title">
-                        <h2>
-                            Style Transfer Game
-                            <a href="https://github.com/AdiBak/styletransfergame" target="_blank" rel="noopener noreferrer">
+            <div className="project-card">
+                <div className="project-image">
+                    <img src="https://i.ibb.co/DHPKVpJX/strd1.png" alt="Style Transfer Game" />
+                </div>
+                <div className="project-content">
+                    <div className="project-header">
+                        <h2>Style Transfer Game</h2>
+                        <div className="project-links">
+                            <a href="https://github.com/AdiBak/styletransfergame" target="_blank" rel="noopener noreferrer" title="GitHub">
                                 <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" />
                             </a>
-                            <a href="https://styletransfergame.vercel.app" target="_blank" rel="noopener noreferrer">
-                                <img src="https://img.icons8.com/m_rounded/512/228BE6/external-link.png" alt="Deployed Site" />
+                            <a href="https://styletransfergame.vercel.app" target="_blank" rel="noopener noreferrer" title="Live Demo">
+                                <img src="https://img.icons8.com/m_rounded/512/228BE6/external-link.png" alt="Live Demo" />
                             </a>
-                        </h2>
+                        </div>
                     </div>
-                    {/* Date removed */}
+                    <p>Designed a fun, educational game inspired by neural style transfer with interactive AI features.</p>
+                    <div className="tech-stack">
+                        <Chip label="React.js" className="tech-chip" />
+                        <Chip label="PyTorch" className="tech-chip" />
+                        <Chip label="Cloudinary" className="tech-chip" />
+                        <Chip label="Vercel" className="tech-chip" />
+                    </div>
                 </div>
-                <div className="tech-stack">
-                    <Chip label="React.js" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="CSS" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="Jupyter" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier' }} />
-                    <Chip label="PyTorch" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="Cloudinary" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="JSON" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="Git" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="Vercel" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
-                </div>
-                <p>Designed a fun, educational game inspired by style transfer.</p>
             </div>
             
-            <div className="project">
-                <div className="project-header">
-                    <div className="project-title">
-                        <h2>
-                            Upsc-AI-le
-                            <a href="https://github.com/AdiBak/upscaile" target="_blank" rel="noopener noreferrer">
+            <div className="project-card">
+                <div className="project-image">
+                    <img src="https://i.ibb.co/zTrRrqLZ/upsss.png" alt="Upsc-AI-le" />
+                </div>
+                <div className="project-content">
+                    <div className="project-header">
+                        <h2>Upsc-AI-le</h2>
+                        <div className="project-links">
+                            <a href="https://github.com/AdiBak/upscaile" target="_blank" rel="noopener noreferrer" title="GitHub">
                                 <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" />
                             </a>
-                            <a href="https://upscaile.onrender.com" target="_blank" rel="noopener noreferrer">
-                                <img src="https://img.icons8.com/m_rounded/512/228BE6/external-link.png" alt="Deployed Site" />
+                            <a href="https://upscaile.onrender.com" target="_blank" rel="noopener noreferrer" title="Live Demo">
+                                <img src="https://img.icons8.com/m_rounded/512/228BE6/external-link.png" alt="Live Demo" />
                             </a>
-                        </h2>
+                        </div>
                     </div>
-                    {/* Date removed */}
+                    <p>Built a fullstack AI-powered image upscaler web app with real-time processing capabilities.</p>
+                    <div className="tech-stack">
+                        <Chip label="Flask" className="tech-chip" />
+                        <Chip label="Hugging Face" className="tech-chip" />
+                        <Chip label="Redis" className="tech-chip" />
+                        <Chip label="Render" className="tech-chip" />
+                    </div>
                 </div>
-                <div className="tech-stack">
-                    <Chip label="HTML" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="Bootstrap" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier' }} />
-                    <Chip label="CSS" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="Flask" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="JSON" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="Hugging Face" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="Cloudinary" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="Redis" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="Git" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="Render" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
-                </div>
-                <p>Built a fullstack AI-powered image upscaler web app.</p>
             </div>
             
-            <div className="project">
-                <div className="project-header">
-                    <div className="project-title">
-                        <h2>
-                            Propulsion Parody
-                            <a href="https://frenchfrys.itch.io/propulsion-parody" target="_blank" rel="noopener noreferrer">
-                                <img src="https://img.icons8.com/m_rounded/512/228BE6/external-link.png" alt="Deployed Site" />
+            <div className="project-card">
+                <div className="project-image">
+                    <img src="https://i.ibb.co/dsVFZm6F/ppg.png" alt="Propulsion Parody" />
+                </div>
+                <div className="project-content">
+                    <div className="project-header">
+                        <h2>Propulsion Parody</h2>
+                        <div className="project-links">
+                            <a href="https://frenchfrys.itch.io/propulsion-parody" target="_blank" rel="noopener noreferrer" title="Play Game">
+                                <img src="https://img.icons8.com/m_rounded/512/228BE6/external-link.png" alt="Play Game" />
                             </a>
-                        </h2>
+                        </div>
                     </div>
-                    {/* Date removed */}
+                    <p>Helped design and program a jetpack joyrider game in a collaborative team of 15 developers.</p>
+                    <div className="tech-stack">
+                        <Chip label="Unity" className="tech-chip" />
+                        <Chip label="C#" className="tech-chip" />
+                        <Chip label="Trello" className="tech-chip" />
+                        <Chip label="Itch.io" className="tech-chip" />
+                    </div>
                 </div>
-                <div className="tech-stack">
-                    <Chip label="Unity" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="C#" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="Git" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="Trello" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="Itch.io" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
-                </div>
-                <p>Helped design, program a jetpack joyrider in a team of 15.</p>
             </div>
             
-            <div className="project">
-                <div className="project-header">
-                    <div className="project-title">
-                        <h2>
-                            Phantom Pilgrimage
-                            <a href="https://emilye25.itch.io/phantom-pilgrimage" target="_blank" rel="noopener noreferrer">
-                                <img src="https://img.icons8.com/m_rounded/512/228BE6/external-link.png" alt="Deployed Site" />
+            <div className="project-card">
+                <div className="project-image">
+                    <img src="https://i.ibb.co/C54BQX8Z/pph.png" alt="Phantom Pilgrimage" />
+                </div>
+                <div className="project-content">
+                    <div className="project-header">
+                        <h2>Phantom Pilgrimage</h2>
+                        <div className="project-links">
+                            <a href="https://emilye25.itch.io/phantom-pilgrimage" target="_blank" rel="noopener noreferrer" title="Play Game">
+                                <img src="https://img.icons8.com/m_rounded/512/228BE6/external-link.png" alt="Play Game" />
                             </a>
-                        </h2>
+                        </div>
                     </div>
-                    {/* Date removed */}
+                    <p>Helped design and program a surreal platformer game in a collaborative team of 11 developers.</p>
+                    <div className="tech-stack">
+                        <Chip label="Unity" className="tech-chip" />
+                        <Chip label="C#" className="tech-chip" />
+                        <Chip label="Trello" className="tech-chip" />
+                        <Chip label="Itch.io" className="tech-chip" />
+                    </div>
                 </div>
-                <div className="tech-stack">
-                    <Chip label="Unity" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="C#" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="Git" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="Trello" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
-                    <Chip label="Itch.io" style={{ margin: '5px', backgroundColor: 'black', color: 'white', fontFamily: 'courier'}} />
-                </div>
-                <p>Helped design, program a surreal platformer in a team of 11.</p>
             </div>
         </div>
     </div>
