@@ -8,6 +8,33 @@ function Project() {
     <div className="projects-container" id="projects">
         <h1>Projects</h1>
         <div className="projects-grid">
+        <div className="project-card">
+                <div className="project-image">
+                    <img src="https://i.ibb.co/HfC80j9J/IMG-5956.png" alt="Smart PDF Reader" />
+                </div>
+                <div className="project-content">
+                    <div className="project-header">
+                        <h2>Smart PDF Reader</h2>
+                        <div className="project-links">
+                            <a href="https://github.com/AdiBak/SmartPDFReader" target="_blank" rel="noopener noreferrer" title="GitHub">
+                                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" />
+                            </a>
+                            <a href="https://pdfsmart.vercel.app/" target="_blank" rel="noopener noreferrer" title="Live Demo">
+                                <img src="https://img.icons8.com/m_rounded/512/228BE6/external-link.png" alt="Live Demo" />
+                            </a>
+                        </div>
+                    </div>
+                    <p>Building a PDF viewer with RAG-based chat functionality, annotation capabilities, and more.</p>
+                    <div className="tech-stack">
+                        <Chip label="React.js" className="tech-chip" />
+                        <Chip label="Typescript" className="tech-chip" />
+                        <Chip label="RAG" className="tech-chip" />
+                        <Chip label="OpenAI" className="tech-chip" />
+                        <Chip label="Supabase" className="tech-chip" />
+                    </div>
+                </div>
+            </div>
+
             <div className="project-card">
                 <div className="project-image">
                     <img src="https://i.ibb.co/gZL1fsNg/f1cardemoss.png" alt="F1 Gesture Controller" />
