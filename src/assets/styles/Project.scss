@@ -48,7 +48,22 @@
     height: 100%;
     object-fit: cover;
     border-radius: 8px;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    will-change: transform;
+    opacity: 0;
+    animation: fadeInImage 0.5s ease-in forwards;
+}
+
+@keyframes fadeInImage {
+    to {
+        opacity: 1;
+    }
+}
+
+.project-image img[loading="lazy"] {
+    background: linear-gradient(135deg, #5000ca, #7aaeee);
 }
 
 .project-card:hover .project-image img {

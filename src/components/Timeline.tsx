@@ -16,6 +16,25 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="Oct 2025 - Present"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Lead Software Developer at Student Patient Advocacy Network</h3>
+            <p>
+              <ul>
+                <li>Led full-stack migration of 8+ pages from static HTML to React + Vite with Supabase backend, establishing modern architecture and improving code maintainability</li>
+                <li>Architected automated member onboarding pipeline using Supabase Edge Functions, Auth API, EmailJS, and Cloudflare routing, eliminating manual processes and reducing setup time</li>
+                <li>Built document management system with PDF viewer, text extraction, and state-organized bill management for executive directors, enabling efficient legislative tracking</li>
+                <li>Implemented role-based dashboard with volunteer hours tracking, member directory with advanced filtering, and responsive UI redesigns for improved user experience</li>
+              </ul>
+            </p>
+          </VerticalTimelineElement>
+          
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
             date="June 2025 - Sep 2025"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}

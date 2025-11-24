@@ -1,5 +1,11 @@
 import React from "react";
 import { Chip } from '@mui/material';
+import smartPdfReader from '../assets/images/smart-pdf-reader.png';
+import f1GestureController from '../assets/images/f1-gesture-controller.png';
+import styleTransferGame from '../assets/images/style-transfer-game.png';
+import upscAiLe from '../assets/images/upsc-ai-le.png';
+import propulsionParody from '../assets/images/propulsion-parody.png';
+import phantomPilgrimage from '../assets/images/phantom-pilgrimage.png';
 import '../assets/styles/Project.scss';
 
 
@@ -8,9 +14,14 @@ function Project() {
     <div className="projects-container" id="projects">
         <h1>Projects</h1>
         <div className="projects-grid">
-        <div className="project-card">
+            <div className="project-card">
                 <div className="project-image">
-                    <img src="https://i.ibb.co/HfC80j9J/IMG-5956.png" alt="Smart PDF Reader" />
+                    <img 
+                        src={smartPdfReader} 
+                        alt="Smart PDF Reader" 
+                        loading="lazy"
+                        decoding="async"
+                    />
                 </div>
                 <div className="project-content">
                     <div className="project-header">
@@ -24,7 +35,7 @@ function Project() {
                             </a>
                         </div>
                     </div>
-                    <p>Building a PDF viewer with RAG-based chat functionality, annotation capabilities, and more.</p>
+                    <p>A PDF viewer with RAG-based chat functionality, annotation capabilities, and more.</p>
                     <div className="tech-stack">
                         <Chip label="React.js" className="tech-chip" />
                         <Chip label="Typescript" className="tech-chip" />
@@ -37,7 +48,12 @@ function Project() {
 
             <div className="project-card">
                 <div className="project-image">
-                    <img src="https://i.ibb.co/gZL1fsNg/f1cardemoss.png" alt="F1 Gesture Controller" />
+                    <img 
+                        src={f1GestureController} 
+                        alt="F1 Gesture Controller" 
+                        loading="lazy"
+                        decoding="async"
+                    />
                 </div>
                 <div className="project-content">
                     <div className="project-header">
@@ -48,7 +64,7 @@ function Project() {
                             </a>
                         </div>
                     </div>
-                    <p>Building a hand gesture-controlled F1 simulator using computer vision and 3D graphics.</p>
+                    <p>A hand gesture-controlled F1 simulator using computer vision and 3D graphics.</p>
                     <div className="tech-stack">
                         <Chip label="React.js" className="tech-chip" />
                         <Chip label="Three.js" className="tech-chip" />
@@ -59,7 +75,12 @@ function Project() {
             
             <div className="project-card">
                 <div className="project-image">
-                    <img src="https://i.ibb.co/DHPKVpJX/strd1.png" alt="Style Transfer Game" />
+                    <img 
+                        src={styleTransferGame} 
+                        alt="Style Transfer Game" 
+                        loading="lazy"
+                        decoding="async"
+                    />
                 </div>
                 <div className="project-content">
                     <div className="project-header">
@@ -73,7 +94,7 @@ function Project() {
                             </a>
                         </div>
                     </div>
-                    <p>Designed a fun, educational game inspired by neural style transfer with interactive AI features.</p>
+                    <p>A fun, educational game inspired by neural style transfer with interactive AI features.</p>
                     <div className="tech-stack">
                         <Chip label="React.js" className="tech-chip" />
                         <Chip label="PyTorch" className="tech-chip" />
@@ -85,7 +106,12 @@ function Project() {
             
             <div className="project-card">
                 <div className="project-image">
-                    <img src="https://i.ibb.co/zTrRrqLZ/upsss.png" alt="Upsc-AI-le" />
+                    <img 
+                        src={upscAiLe} 
+                        alt="Upsc-AI-le" 
+                        loading="lazy"
+                        decoding="async"
+                    />
                 </div>
                 <div className="project-content">
                     <div className="project-header">
@@ -99,7 +125,7 @@ function Project() {
                             </a>
                         </div>
                     </div>
-                    <p>Built a fullstack AI-powered image upscaler web app with real-time processing capabilities.</p>
+                    <p>A fullstack AI-powered image upscaler web app with real-time processing capabilities.</p>
                     <div className="tech-stack">
                         <Chip label="Flask" className="tech-chip" />
                         <Chip label="Hugging Face" className="tech-chip" />
@@ -111,7 +137,12 @@ function Project() {
             
             <div className="project-card">
                 <div className="project-image">
-                    <img src="https://i.ibb.co/dsVFZm6F/ppg.png" alt="Propulsion Parody" />
+                    <img 
+                        src={propulsionParody} 
+                        alt="Propulsion Parody" 
+                        loading="lazy"
+                        decoding="async"
+                    />
                 </div>
                 <div className="project-content">
                     <div className="project-header">
@@ -122,7 +153,7 @@ function Project() {
                             </a>
                         </div>
                     </div>
-                    <p>Helped design and program a jetpack joyrider game in a collaborative team of 15 developers.</p>
+                    <p>A jetpack joyrider game in a collaborative team of 15 developers.</p>
                     <div className="tech-stack">
                         <Chip label="Unity" className="tech-chip" />
                         <Chip label="C#" className="tech-chip" />
@@ -134,7 +165,12 @@ function Project() {
             
             <div className="project-card">
                 <div className="project-image">
-                    <img src="https://i.ibb.co/C54BQX8Z/pph.png" alt="Phantom Pilgrimage" />
+                    <img 
+                        src={phantomPilgrimage} 
+                        alt="Phantom Pilgrimage" 
+                        loading="lazy"
+                        decoding="async"
+                    />
                 </div>
                 <div className="project-content">
                     <div className="project-header">
@@ -145,7 +181,7 @@ function Project() {
                             </a>
                         </div>
                     </div>
-                    <p>Helped design and program a surreal platformer game in a collaborative team of 11 developers.</p>
+                    <p>A surreal platformer game in a collaborative team of 11 developers.</p>
                     <div className="tech-stack">
                         <Chip label="Unity" className="tech-chip" />
                         <Chip label="C#" className="tech-chip" />

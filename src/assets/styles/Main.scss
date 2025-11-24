@@ -54,6 +54,17 @@
     img {
         width: 150px;
         border-radius: 50%;
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: crisp-edges;
+        transition: opacity 0.3s ease;
+        opacity: 0;
+        animation: fadeInImage 0.5s ease-in forwards;
+    }
+}
+
+@keyframes fadeInImage {
+    to {
+        opacity: 1;
     }
 }
 
