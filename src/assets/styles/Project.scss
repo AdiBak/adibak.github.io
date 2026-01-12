@@ -4,14 +4,14 @@
     padding: 5% 10%;
     text-align: left;
 }
-
+  
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 2rem;
     margin-top: 2rem;
 }
-
+  
 .project-card {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 12px;
@@ -133,7 +133,7 @@
     gap: 0.5rem;
     margin-top: auto;
 }
-
+  
 .tech-chip {
     background: rgba(0, 0, 0, 0.3) !important;
     color: white !important;
@@ -154,7 +154,7 @@
     border-color: rgba(0, 0, 0, 0.1);
     color: #0d1116;
 }
-
+  
 .light-mode .project-card:hover {
     border-color: #5000ca;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -192,15 +192,15 @@
 }
 
 @media screen and (max-width: 768px) {
-    .projects-container {
+        .projects-container {
         padding: 5% 5%;
-    }
-    
+        }
+  
     .projects-grid {
         grid-template-columns: 1fr;
         gap: 1.5rem;
-    }
-    
+        }
+      
     .project-card {
         padding: 1.25rem;
     }

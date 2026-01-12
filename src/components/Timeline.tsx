@@ -16,6 +16,26 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="Dec 2025 - Present"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">AI Fellow at Handshake AI</h3>
+            <p>
+              <ul>
+                <li>Built and analyzed 3D reference models to ground AI evaluation tasks in measurable geometric and scientific constraints</li>
+                <li>Designed formal, unambiguous task specifications and atomic evaluation rubrics to support training and assessment of large language models on technical design problems</li>
+                <li>Conducted independent research into how language models interpret spatial, dimensional, and relational information, using findings to refine prompt and rubric structure</li>
+                <li>Developed systematic evaluation frameworks for testing AI performance on 3D geometry, measurement-driven modeling, and specification compliance</li>
+                <li>Engineered domain-specific prompts to elicit precise, reproducible technical reasoning from AI systems</li>
+              </ul>
+            </p>
+          </VerticalTimelineElement>
+          
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
             date="Oct 2025 - Present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
