@@ -1,5 +1,5 @@
 import React from "react";
-import profileImage from '../assets/images/profilepic.jpg';
+import profileImage from '../assets/images/portrait.png';
 import '../assets/styles/Main.scss';
 
 function Main() {
