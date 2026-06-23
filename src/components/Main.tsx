@@ -1,37 +1,30 @@
 import React from "react";
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import profileImage from '../assets/images/profilepic.jpg';
 import '../assets/styles/Main.scss';
 
 function Main() {
   return (
-    <div className="container">
-      <div className="about-section">
-        <div className="image-wrapper">
-          <img 
-            src={profileImage} 
-            alt="Avatar" 
-            loading="eager"
-            fetchPriority="high"
-            decoding="async"
-          />
-        </div>
-        <div className="content">
-          <div className="social_icons">
-            <a href="https://github.com/AdiBak" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-            <a href="https://www.linkedin.com/in/-adityabakshi-/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
-          </div>
+    <section className="hero page-section">
+      <div className="hero-inner">
+        <img
+          className="hero-photo"
+          src={profileImage}
+          alt="Aditya Bakshi"
+          loading="eager"
+          fetchPriority="high"
+          decoding="async"
+        />
+        <div className="hero-content">
           <h1>Aditya Bakshi</h1>
-          <p>Hi! I'm a UCI CS alum interested in machine learning and AI.</p>
-
-          <div className="mobile_social_icons">
-            <a href="https://github.com/AdiBak" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-            <a href="https://www.linkedin.com/in/-adityabakshi-/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+          <p className="hero-tagline">UCI CS alum · machine learning &amp; AI</p>
+          <div className="hero-links">
+            <a className="text-link" href="https://github.com/AdiBak" target="_blank" rel="noreferrer">GitHub</a>
+            <a className="text-link" href="https://www.linkedin.com/in/-adityabakshi-/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a className="text-link" href="mailto:adibak1058@gmail.com">Email</a>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
