@@ -23,7 +23,7 @@ function Main() {
             <a href="https://www.linkedin.com/in/-adityabakshi-/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
           <h1>Aditya Bakshi</h1>
-          <p>Hi! I'm a computer science student at UC Irvine interested in machine learning, web dev, and game dev.</p>
+          <p>Hi! I'm a UCI CS alum interested in machine learning and AI.</p>
 
           <div className="mobile_social_icons">
             <a href="https://github.com/AdiBak" target="_blank" rel="noreferrer"><GitHubIcon/></a>
