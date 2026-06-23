@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9efeb332.css",
-    "main.js": "/static/js/main.2d07189b.js",
+    "main.css": "/static/css/main.6e744ea3.css",
+    "main.js": "/static/js/main.6ca7453b.js",
     "static/js/453.b05d8aa5.chunk.js": "/static/js/453.b05d8aa5.chunk.js",
     "static/media/bg-dark.png": "/static/media/bg-dark.b2a4edcb5e57d4da8641.png",
     "static/media/style-transfer-game.png": "/static/media/style-transfer-game.9771d50b0681707ecd01.png",
@@ -9,15 +9,16 @@
     "static/media/smart-pdf-reader.png": "/static/media/smart-pdf-reader.f4e482aa701e0fad5cb4.png",
     "static/media/f1-gesture-controller.png": "/static/media/f1-gesture-controller.79039a2c943f4261ceea.png",
     "static/media/profilepic.jpg": "/static/media/profilepic.4f0332e9ed748d1c62a6.jpg",
+    "static/media/bright-sparks.png": "/static/media/bright-sparks.d311691ea0a181f98006.png",
     "static/media/propulsion-parody.png": "/static/media/propulsion-parody.70ddb1d315478d0cd81a.png",
     "static/media/phantom-pilgrimage.png": "/static/media/phantom-pilgrimage.f30093542d605bb8a8a4.png",
     "index.html": "/index.html",
-    "main.9efeb332.css.map": "/static/css/main.9efeb332.css.map",
-    "main.2d07189b.js.map": "/static/js/main.2d07189b.js.map",
+    "main.6e744ea3.css.map": "/static/css/main.6e744ea3.css.map",
+    "main.6ca7453b.js.map": "/static/js/main.6ca7453b.js.map",
     "453.b05d8aa5.chunk.js.map": "/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9efeb332.css",
-    "static/js/main.2d07189b.js"
+    "static/css/main.6e744ea3.css",
+    "static/js/main.6ca7453b.js"
   ]
 }
