@@ -1,6 +1,7 @@
 import React, {useEffect} from "react";
 import {
   Main,
+  Education,
   Timeline,
   Project,
   Navigation,
@@ -18,6 +19,7 @@ function App() {
         <Navigation />
         <main>
             <Main/>
+            <Education/>
             <Timeline/>
             <Project/>
         </main>

@@ -16,7 +16,7 @@ function Main() {
         />
         <div className="hero-content">
           <h1>Aditya Bakshi</h1>
-          <p className="hero-tagline">UCI CS alum · machine learning &amp; AI</p>
+          <p className="hero-tagline">Hey! I'm interested in machine learning &amp; AI.</p>
           <div className="hero-links">
             <a className="text-link" href="https://github.com/AdiBak" target="_blank" rel="noreferrer">GitHub</a>
             <a className="text-link" href="https://www.linkedin.com/in/-adityabakshi-/" target="_blank" rel="noreferrer">LinkedIn</a>

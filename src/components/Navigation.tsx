@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import '../assets/styles/Navigation.scss';
 
-const navItems = [['Experience', 'experience'], ['Projects', 'projects']];
+const navItems = [['Education', 'education'], ['Experience', 'experience'], ['Projects', 'projects']];
 
 function Navigation() {
   const [mobileOpen, setMobileOpen] = useState<boolean>(false);

@@ -14,8 +14,8 @@ const experiences = [
     logo: arizonaLogo,
     logoAlt: "University of Arizona logo",
     highlights: [
-      "I'm collaborating on YOLO models to detect Mars slope streaks from HiRISE imagery.",
-      "Also building an OpenCV pipeline with contrast filtering and bounding boxes on GeoTIFF raster data.",
+      "Building an OpenCV pipeline with contrast filtering and bounding boxes on GeoTIFF raster data.",
+      "Working with the team on a YOLO model to automatically detect Martian slope streaks from HiRISE imagery.",
     ],
   },
   {
@@ -25,8 +25,8 @@ const experiences = [
     logo: handshakeLogo,
     logoAlt: "Handshake logo",
     highlights: [
-      "I design evaluation rubrics for LLMs generating geometry-constrained 3D models.",
-      "Ground-truth assets in CAD/Blender support benchmarking across multimodal engineering design tasks.",
+      "Designed evaluation rubrics that score LLMs on dimensional accuracy and spatial reasoning in 3D and document generation.",
+      "Built CAD/Blender validation assets to benchmark how models handle structured engineering design problems.",
     ],
   },
   {
@@ -36,8 +36,8 @@ const experiences = [
     logo: spanLogo,
     logoAlt: "SPAN logo",
     highlights: [
-      "I lead platform development on React and Supabase — dashboards, onboarding, and role-based access for a healthcare advocacy nonprofit.",
-      "Shipped a legislative ops system that tracks and publishes 50+ bills for member outreach.",
+      "Lead web development for a healthcare advocacy nonprofit, shipping dashboards, onboarding flows, and role based access in React and Supabase.",
+      "Set up automated onboarding that brought in over 25 members in 3 months, plus a legislative ops tool now tracking 50+ proposals.",
     ],
   },
   {
@@ -47,8 +47,8 @@ const experiences = [
     logo: brightSparksLogo,
     logoAlt: "Bright Sparks Academy logo",
     highlights: [
-      "I built dashboards, forms, and interactive whiteboards for personalized K-12 tutoring.",
-      "Firebase real-time sync in our Next.js app now supports 5,000+ tracked sessions across the platform.",
+      "Developed dashboards, question forms, and interactive whiteboards for one on one K-12 tutoring as the platform grew to serve over 250 students.",
+      "Rolled out Firebase real time sync in our Next.js stack so tutors and students could collaborate during live sessions, scaling past 5,000 tracked sessions.",
     ],
   },
   {
@@ -58,8 +58,8 @@ const experiences = [
     logo: nasaLogo,
     logoAlt: "L'SPACE logo",
     highlights: [
-      "I co-authored a proposal for multi-material centrifugal 3D printing aimed at better layer adhesion in microgravity.",
-      "Worked with an 11-member team on literature synthesis, cost analysis, and technical writing.",
+      "Coauthored an innovation proposal for centrifugal 3D printing in microgravity with an 11 person undergraduate team.",
+      "Helped pull together literature reviews and cost estimates for materials prototyping and validation.",
     ],
   },
 ];
