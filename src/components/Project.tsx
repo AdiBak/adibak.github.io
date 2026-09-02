@@ -11,7 +11,7 @@ const projects = [
   {
     title: "Smart PDF Reader",
     image: smartPdfReader,
-    description: "A PDF viewer with RAG-based chat functionality, annotation capabilities, and more.",
+    description: "RAG based PDF chat and annotation.",
     tags: ["React", "TypeScript", "RAG", "OpenAI", "Supabase"],
     links: [
       { label: "GitHub", href: "https://github.com/AdiBak/SmartPDFReader" },
@@ -21,14 +21,14 @@ const projects = [
   {
     title: "F1 Gesture Controller",
     image: f1GestureController,
-    description: "A hand gesture-controlled F1 simulator using computer vision and 3D graphics.",
+    description: "Hand gesture controlled F1 simulator with computer vision.",
     tags: ["React", "Three.js", "MediaPipe"],
     links: [{ label: "GitHub", href: "https://github.com/AdiBak/f1-gesture-racer" }],
   },
   {
     title: "Style Transfer Game",
     image: styleTransferGame,
-    description: "An educational game inspired by neural style transfer with interactive AI features.",
+    description: "Educational game built around neural style transfer.",
     tags: ["React", "PyTorch", "Cloudinary", "Vercel"],
     links: [
       { label: "GitHub", href: "https://github.com/AdiBak/styletransfergame" },
@@ -38,7 +38,7 @@ const projects = [
   {
     title: "Upsc-AI-le",
     image: upscAiLe,
-    description: "A fullstack AI-powered image upscaler web app with real-time processing capabilities.",
+    description: "AI powered image upscaler with real time processing.",
     tags: ["Flask", "Hugging Face", "Redis", "Render"],
     links: [
       { label: "GitHub", href: "https://github.com/AdiBak/upscaile" },
@@ -48,14 +48,14 @@ const projects = [
   {
     title: "Propulsion Parody",
     image: propulsionParody,
-    description: "A jetpack joyrider game built with a collaborative team of 15 developers.",
+    description: "Jetpack joyrider game with a 15 person dev team.",
     tags: ["Unity", "C#", "Itch.io"],
     links: [{ label: "Play", href: "https://frenchfrys.itch.io/propulsion-parody" }],
   },
   {
     title: "Phantom Pilgrimage",
     image: phantomPilgrimage,
-    description: "A surreal platformer game built with a collaborative team of 11 developers.",
+    description: "Surreal platformer built with an 11 person dev team.",
     tags: ["Unity", "C#", "Itch.io"],
     links: [{ label: "Play", href: "https://emilye25.itch.io/phantom-pilgrimage" }],
   },
@@ -92,7 +92,7 @@ function Project() {
                   ))}
                 </div>
               </div>
-              <p>{project.description}</p>
+              <p className="project-summary">{project.description}</p>
               <p className="project-tags">{project.tags.join(' · ')}</p>
             </div>
           </article>
