@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.946c92f4.css",
-    "main.js": "/static/js/main.d9be811e.js",
+    "main.js": "/static/js/main.f440e8a7.js",
     "static/js/453.cba9e5b1.chunk.js": "/static/js/453.cba9e5b1.chunk.js",
     "static/media/style-transfer-game.png": "/static/media/style-transfer-game.9771d50b0681707ecd01.png",
     "static/media/upsc-ai-le.png": "/static/media/upsc-ai-le.3b7109a8d18d9e83e401.png",
@@ -13,11 +13,11 @@
     "static/media/phantom-pilgrimage.png": "/static/media/phantom-pilgrimage.f30093542d605bb8a8a4.png",
     "index.html": "/index.html",
     "main.946c92f4.css.map": "/static/css/main.946c92f4.css.map",
-    "main.d9be811e.js.map": "/static/js/main.d9be811e.js.map",
+    "main.f440e8a7.js.map": "/static/js/main.f440e8a7.js.map",
     "453.cba9e5b1.chunk.js.map": "/static/js/453.cba9e5b1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.946c92f4.css",
-    "static/js/main.d9be811e.js"
+    "static/js/main.f440e8a7.js"
   ]
 }
