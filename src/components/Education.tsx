@@ -25,7 +25,7 @@ function Education() {
               <span className="experience-date">Sep 2022 – Jun 2026</span>
             </div>
             <p className="experience-highlight">
-              Coursework in machine learning, computer vision, data structures and algorithms, software design, data management, and information retrieval. Zot zot zot!
+              Coursework in machine learning, computer vision, HCI, algorithms, software design, and information retrieval. Zot zot zot!
             </p>
           </div>
         </article>

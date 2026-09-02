@@ -1,4 +1,5 @@
 import React from "react";
+import deepiriLogo from '../assets/images/experience/deepiri.png';
 import arizonaLogo from '../assets/images/experience/arizona.png';
 import handshakeLogo from '../assets/images/experience/handshake.png';
 import spanLogo from '../assets/images/experience/span.png';
@@ -8,25 +9,36 @@ import '../assets/styles/Timeline.scss';
 
 const experiences = [
   {
-    date: "May 2026 – Present",
+    date: "Jun 2026 – Sep 2026",
+    title: "AI Systems Engineer Intern",
+    organization: "Deepiri",
+    logo: deepiriLogo,
+    logoAlt: "Deepiri logo",
+    highlights: [
+      "Trained a melody MLP on OpenScore Lieder and built a vocal pipeline that turns lyrics into sung output in the Studio timeline.",
+      "Integrated ML mood ranking and built a real time conducting interface with MediaPipe and Web Audio for MIDI score synced cues.",
+    ],
+  },
+  {
+    date: "May 2026 – Aug 2026",
     title: "Machine Learning Research Assistant",
-    organization: "University of Arizona · Space Sciences & Astrobiology Initiative",
+    organization: "University of Arizona",
     logo: arizonaLogo,
     logoAlt: "University of Arizona logo",
     highlights: [
-      "Building an OpenCV pipeline with contrast filtering and bounding boxes on GeoTIFF raster data.",
-      "Working with the team on a YOLO model to automatically detect Martian slope streaks from HiRISE imagery.",
+      "Built an automated slope streak detection pipeline on NASA HiRISE imagery across 8000 x 8000 GeoTIFF tiles using contrast residual and hysteresis thresholding.",
+      "Labeled 1,000+ oriented bounding boxes in a custom review tool and trained an EfficientNet-B0 classifier that reached 0.90 F1.",
     ],
   },
   {
     date: "Dec 2025 – Present",
-    title: "AI Fellow",
+    title: "AI Evaluation Fellow",
     organization: "Handshake AI",
     logo: handshakeLogo,
     logoAlt: "Handshake logo",
     highlights: [
-      "Designed evaluation rubrics that score LLMs on dimensional accuracy and spatial reasoning in 3D and document generation.",
-      "Built CAD/Blender validation assets to benchmark how models handle structured engineering design problems.",
+      "Evaluate multimodal generative AI with structured rubrics and preference ranking, assessing contextual personalization and failure modes.",
+      "Designed benchmark datasets in CAD and Blender for geometry constrained 3D generation, measuring dimensional accuracy and spatial reasoning.",
     ],
   },
   {
@@ -36,8 +48,8 @@ const experiences = [
     logo: spanLogo,
     logoAlt: "SPAN logo",
     highlights: [
-      "Lead web development for a healthcare advocacy nonprofit, shipping dashboards, onboarding flows, and role based access in React and Supabase.",
-      "Set up automated onboarding that brought in over 25 members in 3 months, plus a legislative ops tool now tracking 50+ proposals.",
+      "Own full stack development on React and Supabase, including Edge Functions, RLS hardened access, and role based dashboards across management, policy, HR, and classroom programs.",
+      "Automated onboarding with RoBERTa text screening registered 30+ members; legislative ops with Legiscan API integration now tracks 50+ proposals.",
     ],
   },
   {
@@ -48,7 +60,7 @@ const experiences = [
     logoAlt: "Bright Sparks Academy logo",
     highlights: [
       "Developed dashboards, question forms, and interactive whiteboards for one on one K-12 tutoring as the platform grew to serve over 250 students.",
-      "Rolled out Firebase real time sync in our Next.js stack so tutors and students could collaborate during live sessions, scaling past 5,000 tracked sessions.",
+      "Implemented Firebase real time messaging in our Next.js stack for concurrent collaboration, scaling past 5,000 tracked sessions.",
     ],
   },
   {
@@ -58,8 +70,8 @@ const experiences = [
     logo: nasaLogo,
     logoAlt: "L'SPACE logo",
     highlights: [
-      "Coauthored an innovation proposal for centrifugal 3D printing in microgravity with an 11 person undergraduate team.",
-      "Helped pull together literature reviews and cost estimates for materials prototyping and validation.",
+      "Coauthored an innovation proposal for semi autonomous multi material centrifugal 3D printing to improve layer adhesion in microgravity.",
+      "Synthesized literature and cost analysis across materials prototyping and validation on an 11 person interdisciplinary team.",
     ],
   },
 ];
