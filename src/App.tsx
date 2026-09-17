@@ -11,7 +11,9 @@ import './index.scss';
 
 function App() {
     useEffect(() => {
-        window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+        if (!window.location.hash) {
+            window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+        }
       }, []);
 
     return (

@@ -1,7 +1,11 @@
 import React, { useEffect, useState } from "react";
 import '../assets/styles/Navigation.scss';
 
-const navItems = [['Education', 'education'], ['Experience', 'experience'], ['Projects', 'projects']];
+const navItems = [
+  { label: 'Education', id: 'education' },
+  { label: 'Experience', id: 'experience' },
+  { label: 'Projects', id: 'projects' },
+] as const;
 
 function Navigation() {
   const [mobileOpen, setMobileOpen] = useState<boolean>(false);
@@ -16,31 +20,20 @@ function Navigation() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const scrollToSection = (section: string) => {
-    const element = document.getElementById(section);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-    setMobileOpen(false);
-  };
-
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-    setMobileOpen(false);
-  };
+  const closeMenu = () => setMobileOpen(false);
 
   return (
     <>
       <header className={`site-nav${scrolled ? ' scrolled' : ''}`}>
         <div className="site-nav-inner">
-          <button type="button" className="site-nav-name" onClick={scrollToTop}>
+          <a href="#top" className="site-nav-name">
             Aditya Bakshi
-          </button>
+          </a>
           <nav className="site-nav-links" aria-label="Main">
             {navItems.map((item) => (
-              <button key={item[0]} type="button" onClick={() => scrollToSection(item[1])}>
-                {item[0]}
-              </button>
+              <a key={item.id} href={`#${item.id}`}>
+                {item.label}
+              </a>
             ))}
           </nav>
           <button
@@ -59,17 +52,17 @@ function Navigation() {
           type="button"
           className="site-nav-drawer-backdrop"
           aria-label="Close menu"
-          onClick={() => setMobileOpen(false)}
+          onClick={closeMenu}
         />
         <div className="site-nav-drawer-panel">
-          <button type="button" className="site-nav-drawer-close" onClick={() => setMobileOpen(false)}>
+          <button type="button" className="site-nav-drawer-close" onClick={closeMenu}>
             Close
           </button>
           <div className="site-nav-drawer-links">
             {navItems.map((item) => (
-              <button key={item[0]} type="button" onClick={() => scrollToSection(item[1])}>
-                {item[0]}
-              </button>
+              <a key={item.id} href={`#${item.id}`} onClick={closeMenu}>
+                {item.label}
+              </a>
             ))}
           </div>
         </div>
