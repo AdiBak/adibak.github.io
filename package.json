@@ -25,13 +25,14 @@
     "react-icons": "^5.5.0",
     "react-scripts": "5.0.1",
     "react-vertical-timeline-component": "^3.6.0",
+    "recharts": "^2.15.4",
     "sass": "^1.77.4",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "PORT=5000 react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && node -e \"require('fs').copyFileSync('build/index.html','build/404.html')\"",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",

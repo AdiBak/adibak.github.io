@@ -1,15 +1,19 @@
 import React, { useEffect, useState } from "react";
+import { onNavigateClick, useRoute } from "../route";
 import '../assets/styles/Navigation.scss';
 
 const navItems = [
-  { label: 'Education', id: 'education' },
-  { label: 'Experience', id: 'experience' },
-  { label: 'Projects', id: 'projects' },
+  { label: 'Education', href: '/#education' },
+  { label: 'Experience', href: '/#experience' },
+  { label: 'Projects', href: '/#projects' },
+  { label: 'Blog', href: '/blog' },
 ] as const;
 
 function Navigation() {
+  const route = useRoute();
   const [mobileOpen, setMobileOpen] = useState<boolean>(false);
   const [scrolled, setScrolled] = useState<boolean>(false);
+  const onBlog = route.name === "blog" || route.name === "post";
 
   useEffect(() => {
     const handleScroll = () => {
@@ -26,12 +30,17 @@ function Navigation() {
     <>
       <header className={`site-nav${scrolled ? ' scrolled' : ''}`}>
         <div className="site-nav-inner">
-          <a href="#top" className="site-nav-name">
+          <a href="/#top" className="site-nav-name" onClick={onNavigateClick}>
             Aditya Bakshi
           </a>
           <nav className="site-nav-links" aria-label="Main">
             {navItems.map((item) => (
-              <a key={item.id} href={`#${item.id}`}>
+              <a
+                key={item.href}
+                href={item.href}
+                aria-current={item.href === '/blog' && onBlog ? 'page' : undefined}
+                onClick={onNavigateClick}
+              >
                 {item.label}
               </a>
             ))}
@@ -60,7 +69,15 @@ function Navigation() {
           </button>
           <div className="site-nav-drawer-links">
             {navItems.map((item) => (
-              <a key={item.id} href={`#${item.id}`} onClick={closeMenu}>
+              <a
+                key={item.href}
+                href={item.href}
+                aria-current={item.href === '/blog' && onBlog ? 'page' : undefined}
+                onClick={(event) => {
+                  closeMenu();
+                  onNavigateClick(event);
+                }}
+              >
                 {item.label}
               </a>
             ))}

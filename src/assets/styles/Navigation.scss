@@ -57,7 +57,8 @@
     color: var(--text-muted);
     cursor: pointer;
 
-    &:hover {
+    &:hover,
+    &[aria-current="page"] {
       color: var(--text);
     }
   }

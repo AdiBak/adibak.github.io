@@ -1,0 +1,150 @@
+.blog-page {
+  padding-top: calc(var(--nav-height) + 4rem);
+  padding-bottom: 4rem;
+}
+
+.blog-intro {
+  margin: -0.25rem 0 2.25rem;
+  max-width: 36rem;
+  color: var(--text-muted);
+}
+
+.blog-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-item {
+  display: block;
+  padding: 1.2rem 0;
+  border-top: 1px solid var(--border);
+  color: inherit;
+
+  &:last-child {
+    border-bottom: 1px solid var(--border);
+  }
+
+  &:hover {
+    color: inherit;
+  }
+}
+
+.blog-item-date {
+  display: block;
+  margin-bottom: 0.2rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  color: var(--text-subtle);
+}
+
+.blog-item-title {
+  margin: 0 0 0.3rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  line-height: 1.3;
+}
+
+.blog-item:hover .blog-item-title {
+  color: var(--text-muted);
+}
+
+.blog-item-excerpt {
+  margin: 0;
+  max-width: 38rem;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--text-muted);
+}
+
+.blog-back {
+  display: inline-block;
+  margin-bottom: 1.75rem;
+}
+
+.blog-post-title {
+  margin: 0 0 0.45rem;
+  max-width: 40rem;
+  font-size: clamp(1.6rem, 3vw, 2rem);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.blog-post-date {
+  margin: 0 0 1.75rem;
+  font-size: 0.85rem;
+  color: var(--text-subtle);
+}
+
+.blog-post-body p,
+.blog-post-body li {
+  margin: 0 0 1rem;
+  max-width: 40rem;
+  line-height: 1.7;
+}
+
+.blog-post-body ul {
+  margin: 0 0 1.25rem;
+  padding-left: 1.15rem;
+  max-width: 40rem;
+}
+
+.blog-post-body li {
+  margin-bottom: 0.7rem;
+}
+
+.blog-post-body li strong {
+  font-weight: 600;
+}
+
+.blog-figure {
+  margin: 0.35rem 0 1.5rem;
+  max-width: 40rem;
+
+  figcaption {
+    margin: 0.35rem 0 0;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: var(--text-muted);
+  }
+}
+
+.blog-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1.1rem;
+  margin: 0 0 0.35rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+
+  span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+
+  i {
+    width: 0.7rem;
+    height: 0.7rem;
+  }
+}
+
+.blog-tooltip {
+  background: #111111;
+  color: #ffffff;
+  padding: 0.4rem 0.55rem;
+  font-size: 0.8rem;
+  line-height: 1.45;
+}
+
+.blog-missing {
+  margin: 0;
+  color: var(--text-muted);
+}
+
+@media screen and (max-width: 640px) {
+  .blog-page {
+    padding-top: calc(var(--nav-height) + 2.5rem);
+  }
+}
