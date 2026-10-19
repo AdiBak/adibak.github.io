@@ -12,7 +12,7 @@ const posts: Post[] = [
     title: "Where models miss on the Last Translation Benchmark",
     date: "Sep 2026",
     excerpt:
-      "The Last Translation Benchmark collects sentences that break translation models. One pass rate hides which sentences, and whether English is even in the pair.",
+      "The Last Translation Benchmark collects sentences that break translation models. One pass rate doesn't tell you which sentences, and whether English is even in there.",
     paragraphs: [],
   },
 ];
