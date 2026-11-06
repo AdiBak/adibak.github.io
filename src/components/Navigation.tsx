@@ -4,7 +4,9 @@ import '../assets/styles/Navigation.scss';
 
 const navItems = [
   { label: 'Education', href: '/#education' },
+  { label: 'Publications', href: '/#publications' },
   { label: 'Experience', href: '/#experience' },
+  { label: 'Research groups', href: '/#groups' },
   { label: 'Projects', href: '/#projects' },
   { label: 'Blog', href: '/blog' },
 ] as const;

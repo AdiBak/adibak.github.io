@@ -1,0 +1,14 @@
+.communities-section {
+  padding-bottom: var(--section-gap);
+
+  .experience-item {
+    grid-template-columns: 1fr;
+  }
+}
+
+.community-site {
+  margin-left: 0.6rem;
+  font-size: 0.8rem;
+  font-weight: 400;
+  white-space: nowrap;
+}

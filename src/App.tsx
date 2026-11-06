@@ -2,7 +2,9 @@ import React from "react";
 import {
   Main,
   Education,
+  Publications,
   Timeline,
+  Communities,
   Project,
   Navigation,
   Footer,
@@ -23,7 +25,9 @@ function Site() {
               <>
                 <Main/>
                 <Education/>
+                <Publications/>
                 <Timeline/>
+                <Communities/>
                 <Project/>
               </>
             )}

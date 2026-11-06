@@ -48,6 +48,10 @@
     display: flex;
   }
 
+  @media (min-width: 640px) and (max-width: 860px) {
+    gap: 1rem;
+  }
+
   a {
     border: none;
     background: none;
